@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/new_post_text_field"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="@string/type_new_post_here"
+        android:text=""
+        android:textSize="20sp"
+        android:background="@android:color/transparent"
+        android:layout_weight="9"
+        android:autofillHints=""
+        android:inputType="textCapSentences" />
+
+    <Button
+        android:id="@+id/new_post_submit"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="@string/submit_post"
+        android:layout_weight="1"
+        />
+
+
+</LinearLayout>
